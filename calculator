@@ -1,0 +1,19 @@
+n1=int(input("Enter the number:"))
+n2=int(input("Enter the number:"))
+operators=input("Enter the operators +,-,*,%,/:")
+if operators=="+":
+    print(n1+n2)
+elif operators=="-":
+    print(n1-n2) 
+elif operators=="/":
+    print(n1/n2)
+elif operators=="*":
+    print(n1*n2)  
+elif operators=="%":
+    print(n1%n2)    
+elif operators=="**":
+    print(n1**n2) 
+elif operators=="**":
+    print(n1**n2) 
+else:
+    print("invalid operator")
