@@ -1,1 +1,16 @@
-
+word="Python"
+guess=""
+count=0
+limit=3
+out_of_guess=False
+while guess!=word and not (out_of_guess):
+    if count<limit:
+        guess=input("Enter guess:")
+        count+=1
+    else:
+        out_of_guess=True
+if out_of_guess:
+    print("YOU LOSE")
+else:    
+    print("You won")
+print(count)
