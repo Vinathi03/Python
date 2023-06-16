@@ -1,0 +1,18 @@
+#a append add information
+#r read file
+#r+ read and write
+#w write file
+# reprents comment
+employee =open("untitled.txt","r")
+#can the file be read if yes returns tru else false
+print(employee.readable())
+#reads the content from the file
+#print(employee.read())
+# to read each line
+#print(employee.readline())
+#this reads line from file and stores in form of list
+#print(employee.readlines())
+#index is specified to print specific line
+print(employee.readlines()[1])
+#closing a file is compulsory
+employee.close()
