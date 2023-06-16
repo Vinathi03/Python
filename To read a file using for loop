@@ -1,0 +1,4 @@
+files=open("untitled.txt","r")
+for file in files.readlines():
+    print(file)
+files.close()    
