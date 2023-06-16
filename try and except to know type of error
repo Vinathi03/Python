@@ -1,0 +1,8 @@
+try:
+    value=10/0
+    num=int(input(""))
+    print(num)
+except ZeroDivisionError as err:
+    print(err)
+except valueError:
+    print("invalid input")
